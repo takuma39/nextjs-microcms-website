@@ -1,7 +1,6 @@
 import { NEWS_LIST_LIMIT } from "@/app/_constants";
 import Link from "next/link";
 import styles from "./index.module.css";
-import { current } from "@reduxjs/toolkit";
 
 type Props = {
   totalCount: number;

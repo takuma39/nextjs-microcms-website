@@ -4,7 +4,6 @@ import NewsList from "@/app/_components/NewsList";
 import Pagination from "@/app/_components/Pagination";
 import Category from "@/app/_components/Category";
 import { NEWS_LIST_LIMIT } from "@/app/_constants";
-import { current } from "@reduxjs/toolkit";
 
 type Props = {
   params: {
